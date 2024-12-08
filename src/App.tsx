@@ -1,16 +1,16 @@
-import { useState } from 'react'
-// import './App.css'
-import { SearchHighlight } from './SearchHighlight'
+import React from "react";
+import Home from "./components/home/home"; 
 
 function App() {
-
   return (
     <>
-    My name is Puja.
-    I am 23 years old.
-<SearchHighlight/>
+      <div className="p-4">
+        <p>My name is Puja.</p>
+        <p>I am 23 years old.</p>
+      </div>
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
