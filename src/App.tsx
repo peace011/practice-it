@@ -7,6 +7,7 @@ function App() {
   return (
     <>
     My name is Puja.
+    I am 23 years old.
 <SearchHighlight/>
     </>
   )
